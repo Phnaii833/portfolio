@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="intro.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class=" page-header">
+            <div class="logo">
+                <a href="#">Portfolio</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <label class="mode">
+                <input type="checkbox" id="darkModeToggle">
+                <i class="bx bxs-moon"></i>
+            </label>
+        </div>
+    </header>
+
+
+    <section class="home">
+        <div class="main">
+            <div class="detail">
+                <h3>Hi, It's Me</h3>
+                <h1>I'm <span style="color:#174B96;"> Phani</span></h1>
+                <p>I'm a Graphic Designer ,UI/UX Designer, Web Developer. Our Main Goal to help & Satisficed the Local &
+                    Global Clients by
+                    web development solutions
+                </p>
+                <div class="social">
+                    <a
+                        href="https://www.linkedin.com/in/t-phanindra-a4264721b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_mr_p_h_a_n_i_?igsh=enlleXB6OTFnbTM3"><i
+                            class="bx bxl-instagram"></i></a>
+                    <a href="https://github.com/Phnaii833"><i class="bx bxl-github"></i></a>
+                    <a href="https://x.com/_Mr_P_H_A_N_I_?t=RFA1LYGjC1TnF0qnjINvGw&s=09">
+                        <i class="bx bxl-twitter"></i></a>
+                    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+                </div>
+            </div>
+            <div class="img-sec">
+                <div class="images">
+                    <img src="phani.png" alt="" class="img-w">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="abheading">
+            <h1><span style="color: #174B96;">About me.</span></h1>
+        </div>
+        <div class="card">
+
+            <div class="details">
+
+                <p>Hello! <br>I'm <span style="color:#174B96">Phani</span>, A passionate graphic designer and an
+                    aspiring MERN
+                    full stack developer. With a blend of creativity and a thirst for knowledge, I'm on a journey to
+                    bring
+                    unique digital experiences to life.</p>
+                <br>
+                <h3><span style="color:#174B96">Graphic Design</span></h3><br>
+                <p>My journey as a graphic designer began with a deep love for visual storytelling. From logos to
+                    full-scale branding, I thrive on turning ideas into visually stunning realities.</p>
+                <br>
+                <h3><span style="color:#174B96">Full Stack Development</span></h3><br>
+                <p>As a beginner in MERN stack development, I'm dedicated to learning and mastering the technologies
+                    that
+                    drive modern web applications. I'm constantly exploring new techniques and striving to create
+                    innovative web solutions.</p>
+            </div>
+
+            <div class="details">
+                <h3><span style="color:#174B96;">Education</span></h3><br>
+
+                <h4><span style="color:#174B96;">SSC</span></h4><br>
+                Oakbridge High School <br>ONGOLE
+                <br>
+                <br>
+                <h3><span style="color:#174B96;font-weight:400;">Bachelor of Technology(CSE)</span></h3><br>
+                Rajiv Gandhi University Of knowledge and Technologies,Nuzvid <br>
+                2020 - Pursing
+
+            </div>
+            <div class="details">
+                <h3><span style="color: #174B96;">Experience In</span></h3>
+                <ul class="bullets">
+                    <li>Graphic Designer</li>
+                    <li>UI/UX Designer</li>
+                    <li>Event Management</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <div class="skillcontainer">
+            <div class="abheading">
+                <h1><span style="color: #174B96;">My Skills</span></h1>
+            </div>
+            <h2><span style="color: #174B96;">Graphic Designing</span></h2>
+            <div class="chart-container">
+                <canvas id="graphicDesignChart"></canvas>
+            </div>
+
+            <h2><span style="color: #174B96;">Web Development</span></h2>
+
+            <h5>Frontend Languages</h5>
+            <div class="chart-container">
+
+                <canvas id="frontendChart"></canvas>
+            </div>
+            <h5> Backend Languages</h5>
+
+            <div class="chart-container">
+
+                <canvas id="backendChart"></canvas>
+
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="scripts.js"></script>
+    </section>
+
+    <section id="Projects">
+        <div class="abheading">
+            <h1><span style="color: #174B96;">Projects</span></h1>
+        </div>
+
+        <div class="card1">
+            <img src="/Epitome_Banner.png" alt="Cheerio" class="card__image">
+            <div class="card__content">
+                <p class="card__title">CHEERIO 2K24</p>
+                <p class="card__description">This is the Official Stage Banner ,designed by me in the department of
+                    Computer Science.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Contact">
+
+        <div class="card2">
+
+            <span class="title">Contact Me</span>
+
+            <form class="form">
+                <div class="group">
+                    <input placeholder="‎" type="text" required="">
+                    <label for="name">Name</label>
+                </div>
+                <div class="group">
+                    <input placeholder="‎" type="email" id="email" name="email" required="">
+                    <label for="email">Email</label>
+                </div>
+                <div class="group">
+                    <textarea placeholder="‎" id="comment" name="comment" rows="5" required=""></textarea>
+                    <label for="comment">Comment</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </section>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+        const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+        if (isDarkMode) {
+            body.classList.add('dark-mode');
+            darkModeToggle.checked = true;
+        }
+        darkModeToggle.addEventListener('change', () => {
+            if (darkModeToggle.checked) {
+                body.classList.add('dark-mode');
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
